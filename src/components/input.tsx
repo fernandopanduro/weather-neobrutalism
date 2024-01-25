@@ -11,6 +11,7 @@ export default function Input({ value, setValue, placeholder }: Props) {
       type="text"
       name="text"
       id="text"
+      required
       placeholder={placeholder}
       value={value}
       onChange={e => {
