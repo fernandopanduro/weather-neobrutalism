@@ -6,8 +6,10 @@
 
 ## Captura de pantalla
 
-<img height="300" src="/public/preview-mobile.png"/>
-<img height="300" src="/public/preview-desktop.png"/>
+<div>
+  <img height="400" src="/public/preview-mobile.png"/>
+  <img height="400" src="/public/preview-desktop.png"/>
+</div>
 
 
 ## Demo
