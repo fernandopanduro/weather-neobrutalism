@@ -7,8 +7,8 @@
 ## Capturas de pantalla
 
 <div>
-  <img width="33%" src="/public/preview-mobile.png"/>
-  <img width="66%" src="/public/preview-desktop.png"/>
+  <img width="20%" src="/public/preview-mobile.png"/>
+  <img width="80%" src="/public/preview-desktop.png"/>
 </div>
 
 
