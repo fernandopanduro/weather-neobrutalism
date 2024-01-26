@@ -8,7 +8,7 @@
 
 <div>
   <img width="20%" src="/public/preview-mobile.png"/>
-  <img width="80%" src="/public/preview-desktop.png"/>
+  <img width="79%" src="/public/preview-desktop.png"/>
 </div>
 
 
