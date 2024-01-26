@@ -1,30 +1,80 @@
-# React + TypeScript + Vite
+![image](/public/weather.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Weather Neobrutalism
 
-Currently, two official plugins are available:
+El proyecto es una aplicación web construida con ViteJS, ReactJS, TailwindCSS diseñada para proporcionar datos del clima.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Captura de pantalla
 
-## Expanding the ESLint configuration
+![Screenshot](/public/preview-mobile.png)
+![Screenshot](/public/preview-desktop.png)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## Demo
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Puedes probar aplicación visitando la página de la aplicación [aquí](https://weather-neobrutalism.vercel.app/).
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## 🛠️ Construido 
+
+* [NPM](https://www.npmjs.com/) - Manejador de dependencias
+* [React JS](https://create-react-app.dev/) - Libreria principal
+* [Typescript](https://www.typescriptlang.org/docs/) - Lenguaje de programacion secundario
+* [TailwindCSS](https://tailwindcss.com/) - Framework CSS
+
+  
+## 🧑‍💻 Instalación
+
+Para configurar el proyecto localmente, siga estos pasos:
+
+1. Clone el repositorio:
+
+   ```bash
+   git clone https://github.com/fernandopanduro/weather-neobrutalism.git
+   ```
+
+2. Navegue hasta el directorio del proyecto:
+
+   ```bash
+   cd weather-neobrutalism
+   ```
+
+3. Instale las dependencias del proyecto:
+
+   ```bash
+   npm install
+   ```
+
+
+## Uso
+
+Una vez finalizado el proceso de instalación, puede utilizar los siguientes scripts npm para trabajar con el proyecto:
+
+- Inicie el servidor de desarrollo:
+
+  ```bash
+  npm run dev
+  ```
+
+  Este comando lanza el servidor de desarrollo utilizando Vite, que proporciona un entorno de desarrollo de recarga en caliente. La aplicación será accesible en `http://localhost:5173`.
+
+- Construye el proyecto para producción:
+
+  ```bash
+  npm run build
+  ```
+
+
+## ✒️ Autor 
+
+* **Fernando Panduro** - *Desarrollador principal* - [fernandopanduro](https://github.com/fernandopanduro)
+
+
+## 🎁 Expresiones de Gratitud 
+
+* Comenta a otros sobre este proyecto 📢
+* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
+* Se agradece su atencion 👌.
+
+---
+⌨️ con 💪 por [Fernando](https://github.com/fernandopanduro)
