@@ -1,11 +1,14 @@
 import { useEffect, useState } from "react";
 import { WeatherProps } from "../types";
+import getLocation from "../utils/getLocation";
 
 const useWeather = () => {
   const [weather, setWeather] = useState<WeatherProps>();
   const [error, setError] = useState(false);
 
-  const getWeather = (city: string = "mazatlan") => {
+  const { county } = getLocation();
+
+  const getWeather = (city: string = "Mexico") => {
     fetch(
       `https://api.weatherapi.com/v1/forecast.json?key=ff9b41622f994b1287a73535210809&q=${city}&days=5`
     )
@@ -22,8 +25,12 @@ const useWeather = () => {
   };
 
   useEffect(() => {
-    getWeather();
-  }, []);
+    if (county === null) {
+      getWeather();
+    } else {
+      getWeather(county);
+    }
+  }, [county]);
 
   return { weather, getWeather, error };
 };

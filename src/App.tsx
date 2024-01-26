@@ -42,7 +42,7 @@ function App() {
         </form>
         {error && <Alert message="No matching location found." />}
         <CardPrimary
-          city={weather ? weather.location.name : "New York"}
+          city={weather ? weather.location.name : "Mexico City"}
           temp={weather ? weather.current.temp_c : 24}
           icon={
             weather
