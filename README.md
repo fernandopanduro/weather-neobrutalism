@@ -6,8 +6,8 @@
 
 ## Captura de pantalla
 
-<p align="left"><img  width="120" height="300" src="/public/preview-mobile.png"/></p>
-<p align="right"><img  width="120" height="300" src="/public/preview-desktop.png"/></p>
+<img height="300" src="/public/preview-mobile.png"/>
+<img height="300" src="/public/preview-desktop.png"/>
 
 
 ## Demo
