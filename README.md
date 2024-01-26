@@ -1,4 +1,4 @@
-![image](/public/weather.png)
+<img align="right" width="120" height="120" src="/public/weather.png"/>
 
 # Weather Neobrutalism
 
