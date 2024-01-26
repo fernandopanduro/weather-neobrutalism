@@ -1,8 +1,8 @@
 <p align="center"><img  width="120" height="120" src="/public/weather.png"/></p>
 
-# Weather Neobrutalism
+<h1 align="center">>Weather Neobrutalism</h1>
 
-El proyecto es una aplicación web construida con ViteJS, ReactJS, TailwindCSS diseñada para proporcionar datos del clima.
+<p align="center">El proyecto es una aplicación web construida con ViteJS, ReactJS, TailwindCSS diseñada para proporcionar datos del clima.</p>
 
 ## Captura de pantalla
 
