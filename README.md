@@ -1,4 +1,4 @@
-![image](/public/image-meta.jpeg)
+![image](/public/weather.png)
 
 # Weather Neobrutalism
 
