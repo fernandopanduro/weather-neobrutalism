@@ -1,4 +1,4 @@
-<img align="right" width="120" height="120" src="/public/weather.png"/>
+<img align="center" width="120" height="120" src="/public/weather.png"/>
 
 # Weather Neobrutalism
 
