@@ -11,7 +11,7 @@ export default function CardSecondary({ temp, wind, humidity }: Props) {
         <img
           src={tempIcon}
           alt={`Icon temp ${temp}`}
-          className="h-12 w-12 object-contain aspect-square"
+          className="h-12 w-12 object-contain aspect-square invert"
         />
         <div className="flex flex-col items-center">
           <span className="text-xl font-normal">Temp</span>
@@ -22,7 +22,7 @@ export default function CardSecondary({ temp, wind, humidity }: Props) {
         <img
           src={windIcon}
           alt={`Icon Wind ${wind}`}
-          className="h-12 w-12 object-contain aspect-square"
+          className="h-12 w-12 object-contain aspect-square invert"
         />
         <div className="flex flex-col items-center">
           <span className="text-xl font-normal">Wind</span>
@@ -33,7 +33,7 @@ export default function CardSecondary({ temp, wind, humidity }: Props) {
         <img
           src={humidityIcon}
           alt={`Icon Humidity ${humidity}`}
-          className="h-12 w-12 object-contain aspect-square"
+          className="h-12 w-12 object-contain aspect-square invert"
         />
         <div className="flex flex-col items-center">
           <span className="text-xl font-normal">Humidity</span>

@@ -8,13 +8,14 @@ import Accordion from "./components/accordion";
 import HourlyWeather from "./components/hourly-weather";
 import { WeatherProps } from "./types";
 import useWeather from "./hooks/useWeather";
+import Alert from "./components/alert";
 
 function App() {
   const [value, setValue] = useState("");
   const [activeTab, setActiveTab] = useState("Today");
   const tabsArray = ["Today", "Tomorrow"];
 
-  const { weather, getWeather } = useWeather();
+  const { weather, getWeather, error } = useWeather();
 
   const onsubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -40,6 +41,7 @@ function App() {
           <Input placeholder={"New York"} setValue={setValue} value={value} />
           <Button onClick={() => {}}>Send</Button>
         </form>
+        {error && <Alert message="No matching location found." />}
         <CardPrimary
           city={weather ? weather.location.name : "New York"}
           temp={weather ? weather.current.temp_c : 24}

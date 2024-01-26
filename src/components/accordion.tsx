@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { FiPlus } from "react-icons/fi";
 
 type Props = {
   question: string;
@@ -27,11 +28,10 @@ export default function Accordion({ question, answer }: Props) {
           setShowContent(!showContent);
         }}>
         {question}
-        <span
+        <FiPlus
           style={{ transform: `rotate(${showContent ? "45deg" : "0"})` }}
-          className="ml-4 min-h-[24px] min-w-[24px] transition-transform ease-in-out">
-          +
-        </span>
+          className="ml-4 min-h-[24px] min-w-[24px] transition-transform ease-in-out"
+        />
       </button>
       <div
         ref={contentRef}
