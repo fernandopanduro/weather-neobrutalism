@@ -10,7 +10,7 @@ export default function Tabs({ tabsArray, activeTab, setActiveTab }: Props) {
       style={{
         gridTemplateColumns: Array(tabsArray.length)
           .fill("x")
-          .map((tab: any) => "1fr")
+          .map(() => "1fr")
           .join(" "),
       }}
       className="grid max-w-[500px] rounded-md">

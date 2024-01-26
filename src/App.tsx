@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Input from "./components/input";
 import Tabs from "./components/taps";
 import Button from "./components/button";
@@ -6,7 +6,6 @@ import CardPrimary from "./components/card-primary";
 import CardSecondary from "./components/card-secondary";
 import Accordion from "./components/accordion";
 import HourlyWeather from "./components/hourly-weather";
-import { WeatherProps } from "./types";
 import useWeather from "./hooks/useWeather";
 import Alert from "./components/alert";
 
